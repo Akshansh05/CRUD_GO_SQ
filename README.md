@@ -1,4 +1,4 @@
-# CRUD_GO_SQ
+# CRUD_GO_SQL
 CRUD operation using go, sql, orm(beego)
 
 ```kill -9 $(lsof -t -i:8080)``` // kill a process running at port 
