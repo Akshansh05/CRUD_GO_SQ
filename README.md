@@ -22,6 +22,20 @@ use local;
 show tables;
 ```
 
+
+```SELECT user,authentication_string,plugin,host FROM mysql.user;```
+
+check for authentication socket it should not be there
+
+
+```ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Current-Root-Password';```
+```FLUSH PRIVILEGES;```
+
+
+```update user set authentication_string=password('1234') where user='root';```
+
+ ```flush privileges;```
+
 go to workbench enter username passoword and database name which got created 
 
 create a connection string using //“user:password@tcp(Hostname:Port)/dbname?charset=utf8&parseTime=True&loc=Local” logic
