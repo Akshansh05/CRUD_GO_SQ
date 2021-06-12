@@ -2,6 +2,8 @@
 CRUD operation using go, sql, orm(beego)
 
 ```kill -9 $(lsof -t -i:8080)``` // kill a process running at port 
+
+
 //install golang
 ```
 $ wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz
@@ -41,6 +43,8 @@ check for authentication socket it should not be there
 
 
 ```ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Current-Root-Password';```
+
+
 ```FLUSH PRIVILEGES;```
 
 
