@@ -2,8 +2,20 @@
 CRUD operation using go, sql, orm(beego)
 
 ```kill -9 $(lsof -t -i:8080)``` // kill a process running at port 
+//install golang
+```
+$ wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz
+$ sudo tar -xvf go1.12.2.linux-amd64.tar.gz
+$ sudo mv go /usr/local
+$ echo 'export GOROOT=/usr/local/go' >>~/.profile
+$ echo 'export GOPATH=$HOME/go_projects' >>~/.profile
+$ echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >>~/.profile
+$ source ~/.profile
+```
 
 install mysql-workbench from software or terminal 
+``` sudo apt install mysql-workbench
+```
 
 ```sudo apt install mysql-server```
 
