@@ -14,6 +14,9 @@ $ echo 'export GOPATH=$HOME/go_projects' >>~/.profile
 $ echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >>~/.profile
 $ source ~/.profile
 ```
+check go version
+
+``` go version```
 
 install mysql-workbench from software or terminal 
 ``` sudo apt install mysql-workbench```
