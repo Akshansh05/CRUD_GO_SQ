@@ -59,6 +59,10 @@ go to workbench enter username passoword and database name which got created
 
 create a connection string using //“user:password@tcp(Hostname:Port)/dbname?charset=utf8&parseTime=True&loc=Local” logic
 
+connection string
+
+``` "root:root@tcp(127.0.0.1:3306)/local?charset=utf8&parseTime=True" ```
+
 paste the connection string 
 
 Create tables
