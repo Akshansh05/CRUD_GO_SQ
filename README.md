@@ -16,8 +16,8 @@ $ source ~/.profile
 ```
 
 install mysql-workbench from software or terminal 
-``` sudo apt install mysql-workbench
-```
+``` sudo apt install mysql-workbench```
+
 
 ```sudo apt install mysql-server```
 
