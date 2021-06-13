@@ -6,13 +6,13 @@ CRUD operation using go, sql, orm(beego)
 
 //install golang
 ```
-$ wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz
-$ sudo tar -xvf go1.12.2.linux-amd64.tar.gz
-$ sudo mv go /usr/local
-$ echo 'export GOROOT=/usr/local/go' >>~/.profile
-$ echo 'export GOPATH=$HOME/go_projects' >>~/.profile
-$ echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >>~/.profile
-$ source ~/.profile
+wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz
+sudo tar -xvf go1.12.2.linux-amd64.tar.gz
+sudo mv go /usr/local
+echo 'export GOROOT=/usr/local/go' >>~/.profile
+echo 'export GOPATH=$HOME/go_projects' >>~/.profile
+echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >>~/.profile
+source ~/.profile
 ```
 check go version
 
