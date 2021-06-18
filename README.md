@@ -19,7 +19,7 @@ check go version
 ``` go version```
 
 
-Always keep the code in GOPATH
+Always keep the code directory in GOPATH
 
 install mysql-workbench from software or terminal 
 ``` sudo apt install mysql-workbench```
