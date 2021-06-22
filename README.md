@@ -37,11 +37,11 @@ write code with dependency
 
 
 
-```go mod tidy``` (install all dependencies and creates go.sum)
+1.```go mod tidy``` (install all dependencies and creates go.sum)
 
 
 
-```go mod vendor``` (shows all dependencied)
+2.```go mod vendor``` (shows all dependencied)
 
 
 to download specific verison do ```go get``` automatically install that version and update in go mod  example -```go get github.com/spf13/cast```
