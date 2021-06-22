@@ -27,9 +27,19 @@ cd Api
 
 
 ```go mod init com.api.rest``` (creates go.mod shows all dependencies)
+
+
+
 ```code .```
+
+
 write code with dependency
+
+
+
 ```go mod tidy``` (install all dependencies and creates go.sum)
+
+
 
 ```go mod vendor``` (shows all dependencied)
 
