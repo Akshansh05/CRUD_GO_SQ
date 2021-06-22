@@ -20,18 +20,23 @@ check go version
 
 
 Anywhere mkdir Api
+
+
 cd Api
-go mod init com.api.rest (creates go.mod shows all dependencies)
-code .
+
+
+
+```go mod init com.api.rest``` (creates go.mod shows all dependencies)
+```code .```
 write code with dependency
-go mod tidy (install all dependencies and creates go.sum)
+```go mod tidy``` (install all dependencies and creates go.sum)
 
-go mod vendor (shows all dependencied)
+```go mod vendor``` (shows all dependencied)
 
 
-to download specific verison do go get automatically install that version and update in go mod
+to download specific verison do ```go get``` automatically install that version and update in go mod
 
-now packages will also be visible like "../config"
+now packages will also be visible like ```"../config"```
 
 
 
