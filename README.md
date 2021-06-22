@@ -19,7 +19,7 @@ check go version
 ``` go version```
 
 ----------------------------------------------------------------------------------------------------------------------
-Anywhere mkdir Api
+Anywhere ```mkdir Api```
 
 
 cd Api
@@ -44,7 +44,8 @@ write code with dependency
 ```go mod vendor``` (shows all dependencied)
 
 
-to download specific verison do ```go get``` automatically install that version and update in go mod
+to download specific verison do ```go get``` automatically install that version and update in go mod  example -```go get github.com/spf13/cast```
+
 
 now packages will also be visible like ```"../config"```
 
@@ -100,7 +101,7 @@ connection string
 ``` "root:root@tcp(127.0.0.1:3306)/local?charset=utf8&parseTime=True" ```
 
 paste the connection string 
-
+----------------------------------------------------------------------------------------------------------------------
 Create tables
 
 //for long response keep text not varchar of any size and give as string
@@ -133,20 +134,7 @@ CREATE TABLE `Users` (
   CONSTRAINT `fk_User_Book_1` FOREIGN KEY (`bookId`) REFERENCES `Books` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3001 DEFAULT CHARSET=utf8;
 ```
-
-
-//packages are in home/go/src (all github packages).... separate code packages can be used by taking relative path as mentioned in the code.
-
-```cd CRUD_GO/```
-
-```go get github.com/gorilla/mux```
-
-```go get github.com/astaxie/beego/orm```
-
-```go get github.com/jinzhu/gorm/dialects/mysql```
-
-```go get github.com/spf13/cast```
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 ```go run main.go```
 
 
