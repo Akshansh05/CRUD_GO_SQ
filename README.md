@@ -18,7 +18,7 @@ check go version
 
 ``` go version```
 
-
+----------------------------------------------------------------------------------------------------------------------
 Anywhere mkdir Api
 
 
@@ -51,7 +51,7 @@ now packages will also be visible like ```"../config"```
 for every new local or git hub package run 1 &  2 then the package will be visible
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 install mysql-workbench from software or terminal 
