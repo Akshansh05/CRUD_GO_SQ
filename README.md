@@ -47,7 +47,7 @@ write code with dependency
 to download specific verison do ```go get``` automatically install that version and update in go mod  example -```go get github.com/spf13/cast```
 
 
-now packages will also be visible like ```"../config"```
+now packages will also be visible like ```"../config"```  or will user ```com.api.rest/config"``` auto
 
 for every new local or git hub package run 1 &  2 then the package will be visible
 
