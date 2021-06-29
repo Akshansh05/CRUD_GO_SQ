@@ -5,6 +5,17 @@ CRUD operation using go, sql, orm(beego)
 
 
 //install golang
+
+MAC (M1 Sillicon)
+
+Install HomeBrew as mentioned in``` https://brew.sh/```
+Install GNU Make version 4 or above using brew install make. Update the path variable in your ~/.zshrc file as suggested at the end of make installtion. It will look something like export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH".
+Install GNU Core Utils using ```brew install coreutils```
+Install golang 1.16+ using ```brew install golang```
+
+
+Linux
+
 ```
 wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz
 sudo tar -xvf go1.12.2.linux-amd64.tar.gz
